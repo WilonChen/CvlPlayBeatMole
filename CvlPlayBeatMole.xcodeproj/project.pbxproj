@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCD985C11AB55DA300C92BA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD985C01AB55DA300C92BA0 /* Foundation.framework */; };
+		BCD985C31AB55DA300C92BA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD985C21AB55DA300C92BA0 /* CoreGraphics.framework */; };
+		BCD985C51AB55DA300C92BA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD985C41AB55DA300C92BA0 /* UIKit.framework */; };
+		BCD985CB1AB55DA300C92BA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCD985C91AB55DA300C92BA0 /* InfoPlist.strings */; };
+		BCD985CD1AB55DA300C92BA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD985CC1AB55DA300C92BA0 /* main.m */; };
+		BCD985D11AB55DA300C92BA0 /* CvlAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD985D01AB55DA300C92BA0 /* CvlAppDelegate.m */; };
+		BCD985D31AB55DA300C92BA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD985D21AB55DA300C92BA0 /* Images.xcassets */; };
+		BCD985DA1AB55DA300C92BA0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD985D91AB55DA300C92BA0 /* XCTest.framework */; };
+		BCD985DB1AB55DA300C92BA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD985C01AB55DA300C92BA0 /* Foundation.framework */; };
+		BCD985DC1AB55DA300C92BA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCD985C41AB55DA300C92BA0 /* UIKit.framework */; };
+		BCD985E41AB55DA300C92BA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCD985E21AB55DA300C92BA0 /* InfoPlist.strings */; };
+		BCD985E61AB55DA300C92BA0 /* CvlPlayBeatMoleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD985E51AB55DA300C92BA0 /* CvlPlayBeatMoleTests.m */; };
+		BCD985F21AB55FA500C92BA0 /* CvlBeatMoleRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD985F11AB55FA500C92BA0 /* CvlBeatMoleRootViewController.m */; };
+		BCD985F61AB5601400C92BA0 /* CvlBeatMoleView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD985F51AB5601400C92BA0 /* CvlBeatMoleView.m */; };
+		BCD986041AB5614800C92BA0 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD985F81AB5614800C92BA0 /* Default.png */; };
+		BCD986051AB5614800C92BA0 /* GameBG01.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD985F91AB5614800C92BA0 /* GameBG01.png */; };
+		BCD986061AB5614800C92BA0 /* GameBG02.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD985FA1AB5614800C92BA0 /* GameBG02.png */; };
+		BCD986071AB5614800C92BA0 /* GameBG03.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD985FB1AB5614800C92BA0 /* GameBG03.png */; };
+		BCD986081AB5614800C92BA0 /* GameBG04.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD985FC1AB5614800C92BA0 /* GameBG04.png */; };
+		BCD986091AB5614800C92BA0 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD985FD1AB5614800C92BA0 /* Icon.png */; };
+		BCD9860A1AB5614800C92BA0 /* Mole01.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD985FE1AB5614800C92BA0 /* Mole01.png */; };
+		BCD9860B1AB5614800C92BA0 /* Mole02.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD985FF1AB5614800C92BA0 /* Mole02.png */; };
+		BCD9860C1AB5614800C92BA0 /* Mole03.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD986001AB5614800C92BA0 /* Mole03.png */; };
+		BCD9860D1AB5614800C92BA0 /* Mole04.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD986011AB5614800C92BA0 /* Mole04.png */; };
+		BCD9860E1AB5614800C92BA0 /* Mole05.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD986021AB5614800C92BA0 /* Mole05.png */; };
+		BCD9860F1AB5614800C92BA0 /* Mole06.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD986031AB5614800C92BA0 /* Mole06.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCD985DD1AB55DA300C92BA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCD985B51AB55DA200C92BA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCD985BC1AB55DA200C92BA0;
+			remoteInfo = CvlPlayBeatMole;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCD985BD1AB55DA300C92BA0 /* CvlPlayBeatMole.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CvlPlayBeatMole.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD985C01AB55DA300C92BA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCD985C21AB55DA300C92BA0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BCD985C41AB55DA300C92BA0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCD985C81AB55DA300C92BA0 /* CvlPlayBeatMole-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CvlPlayBeatMole-Info.plist"; sourceTree = "<group>"; };
+		BCD985CA1AB55DA300C92BA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCD985CC1AB55DA300C92BA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCD985CE1AB55DA300C92BA0 /* CvlPlayBeatMole-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CvlPlayBeatMole-Prefix.pch"; sourceTree = "<group>"; };
+		BCD985CF1AB55DA300C92BA0 /* CvlAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CvlAppDelegate.h; sourceTree = "<group>"; };
+		BCD985D01AB55DA300C92BA0 /* CvlAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CvlAppDelegate.m; sourceTree = "<group>"; };
+		BCD985D21AB55DA300C92BA0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCD985D81AB55DA300C92BA0 /* CvlPlayBeatMoleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CvlPlayBeatMoleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD985D91AB55DA300C92BA0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BCD985E11AB55DA300C92BA0 /* CvlPlayBeatMoleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CvlPlayBeatMoleTests-Info.plist"; sourceTree = "<group>"; };
+		BCD985E31AB55DA300C92BA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCD985E51AB55DA300C92BA0 /* CvlPlayBeatMoleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CvlPlayBeatMoleTests.m; sourceTree = "<group>"; };
+		BCD985F01AB55FA500C92BA0 /* CvlBeatMoleRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CvlBeatMoleRootViewController.h; sourceTree = "<group>"; };
+		BCD985F11AB55FA500C92BA0 /* CvlBeatMoleRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CvlBeatMoleRootViewController.m; sourceTree = "<group>"; };
+		BCD985F41AB5601400C92BA0 /* CvlBeatMoleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CvlBeatMoleView.h; sourceTree = "<group>"; };
+		BCD985F51AB5601400C92BA0 /* CvlBeatMoleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CvlBeatMoleView.m; sourceTree = "<group>"; };
+		BCD985F81AB5614800C92BA0 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BCD985F91AB5614800C92BA0 /* GameBG01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameBG01.png; sourceTree = "<group>"; };
+		BCD985FA1AB5614800C92BA0 /* GameBG02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameBG02.png; sourceTree = "<group>"; };
+		BCD985FB1AB5614800C92BA0 /* GameBG03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameBG03.png; sourceTree = "<group>"; };
+		BCD985FC1AB5614800C92BA0 /* GameBG04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameBG04.png; sourceTree = "<group>"; };
+		BCD985FD1AB5614800C92BA0 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		BCD985FE1AB5614800C92BA0 /* Mole01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mole01.png; sourceTree = "<group>"; };
+		BCD985FF1AB5614800C92BA0 /* Mole02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mole02.png; sourceTree = "<group>"; };
+		BCD986001AB5614800C92BA0 /* Mole03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mole03.png; sourceTree = "<group>"; };
+		BCD986011AB5614800C92BA0 /* Mole04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mole04.png; sourceTree = "<group>"; };
+		BCD986021AB5614800C92BA0 /* Mole05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mole05.png; sourceTree = "<group>"; };
+		BCD986031AB5614800C92BA0 /* Mole06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mole06.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCD985BA1AB55DA200C92BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD985C31AB55DA300C92BA0 /* CoreGraphics.framework in Frameworks */,
+				BCD985C51AB55DA300C92BA0 /* UIKit.framework in Frameworks */,
+				BCD985C11AB55DA300C92BA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD985D51AB55DA300C92BA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD985DA1AB55DA300C92BA0 /* XCTest.framework in Frameworks */,
+				BCD985DC1AB55DA300C92BA0 /* UIKit.framework in Frameworks */,
+				BCD985DB1AB55DA300C92BA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCD985B41AB55DA200C92BA0 = {
+			isa = PBXGroup;
+			children = (
+				BCD985C61AB55DA300C92BA0 /* CvlPlayBeatMole */,
+				BCD985DF1AB55DA300C92BA0 /* CvlPlayBeatMoleTests */,
+				BCD985BF1AB55DA300C92BA0 /* Frameworks */,
+				BCD985BE1AB55DA300C92BA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCD985BE1AB55DA300C92BA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCD985BD1AB55DA300C92BA0 /* CvlPlayBeatMole.app */,
+				BCD985D81AB55DA300C92BA0 /* CvlPlayBeatMoleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCD985BF1AB55DA300C92BA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCD985C01AB55DA300C92BA0 /* Foundation.framework */,
+				BCD985C21AB55DA300C92BA0 /* CoreGraphics.framework */,
+				BCD985C41AB55DA300C92BA0 /* UIKit.framework */,
+				BCD985D91AB55DA300C92BA0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCD985C61AB55DA300C92BA0 /* CvlPlayBeatMole */ = {
+			isa = PBXGroup;
+			children = (
+				BCD985F71AB5614800C92BA0 /* images */,
+				BCD985F31AB55FB500C92BA0 /* Model */,
+				BCD985EF1AB55F6000C92BA0 /* View */,
+				BCD985CF1AB55DA300C92BA0 /* CvlAppDelegate.h */,
+				BCD985D01AB55DA300C92BA0 /* CvlAppDelegate.m */,
+				BCD985D21AB55DA300C92BA0 /* Images.xcassets */,
+				BCD985C71AB55DA300C92BA0 /* Supporting Files */,
+			);
+			path = CvlPlayBeatMole;
+			sourceTree = "<group>";
+		};
+		BCD985C71AB55DA300C92BA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCD985C81AB55DA300C92BA0 /* CvlPlayBeatMole-Info.plist */,
+				BCD985C91AB55DA300C92BA0 /* InfoPlist.strings */,
+				BCD985CC1AB55DA300C92BA0 /* main.m */,
+				BCD985CE1AB55DA300C92BA0 /* CvlPlayBeatMole-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCD985DF1AB55DA300C92BA0 /* CvlPlayBeatMoleTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCD985E51AB55DA300C92BA0 /* CvlPlayBeatMoleTests.m */,
+				BCD985E01AB55DA300C92BA0 /* Supporting Files */,
+			);
+			path = CvlPlayBeatMoleTests;
+			sourceTree = "<group>";
+		};
+		BCD985E01AB55DA300C92BA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCD985E11AB55DA300C92BA0 /* CvlPlayBeatMoleTests-Info.plist */,
+				BCD985E21AB55DA300C92BA0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCD985EF1AB55F6000C92BA0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCD985F01AB55FA500C92BA0 /* CvlBeatMoleRootViewController.h */,
+				BCD985F11AB55FA500C92BA0 /* CvlBeatMoleRootViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BCD985F31AB55FB500C92BA0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCD985F41AB5601400C92BA0 /* CvlBeatMoleView.h */,
+				BCD985F51AB5601400C92BA0 /* CvlBeatMoleView.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BCD985F71AB5614800C92BA0 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BCD985F81AB5614800C92BA0 /* Default.png */,
+				BCD985F91AB5614800C92BA0 /* GameBG01.png */,
+				BCD985FA1AB5614800C92BA0 /* GameBG02.png */,
+				BCD985FB1AB5614800C92BA0 /* GameBG03.png */,
+				BCD985FC1AB5614800C92BA0 /* GameBG04.png */,
+				BCD985FD1AB5614800C92BA0 /* Icon.png */,
+				BCD985FE1AB5614800C92BA0 /* Mole01.png */,
+				BCD985FF1AB5614800C92BA0 /* Mole02.png */,
+				BCD986001AB5614800C92BA0 /* Mole03.png */,
+				BCD986011AB5614800C92BA0 /* Mole04.png */,
+				BCD986021AB5614800C92BA0 /* Mole05.png */,
+				BCD986031AB5614800C92BA0 /* Mole06.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCD985BC1AB55DA200C92BA0 /* CvlPlayBeatMole */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD985E91AB55DA300C92BA0 /* Build configuration list for PBXNativeTarget "CvlPlayBeatMole" */;
+			buildPhases = (
+				BCD985B91AB55DA200C92BA0 /* Sources */,
+				BCD985BA1AB55DA200C92BA0 /* Frameworks */,
+				BCD985BB1AB55DA200C92BA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CvlPlayBeatMole;
+			productName = CvlPlayBeatMole;
+			productReference = BCD985BD1AB55DA300C92BA0 /* CvlPlayBeatMole.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCD985D71AB55DA300C92BA0 /* CvlPlayBeatMoleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD985EC1AB55DA300C92BA0 /* Build configuration list for PBXNativeTarget "CvlPlayBeatMoleTests" */;
+			buildPhases = (
+				BCD985D41AB55DA300C92BA0 /* Sources */,
+				BCD985D51AB55DA300C92BA0 /* Frameworks */,
+				BCD985D61AB55DA300C92BA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCD985DE1AB55DA300C92BA0 /* PBXTargetDependency */,
+			);
+			name = CvlPlayBeatMoleTests;
+			productName = CvlPlayBeatMoleTests;
+			productReference = BCD985D81AB55DA300C92BA0 /* CvlPlayBeatMoleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCD985B51AB55DA200C92BA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Cvl;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "陈威";
+				TargetAttributes = {
+					BCD985D71AB55DA300C92BA0 = {
+						TestTargetID = BCD985BC1AB55DA200C92BA0;
+					};
+				};
+			};
+			buildConfigurationList = BCD985B81AB55DA200C92BA0 /* Build configuration list for PBXProject "CvlPlayBeatMole" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCD985B41AB55DA200C92BA0;
+			productRefGroup = BCD985BE1AB55DA300C92BA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCD985BC1AB55DA200C92BA0 /* CvlPlayBeatMole */,
+				BCD985D71AB55DA300C92BA0 /* CvlPlayBeatMoleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCD985BB1AB55DA200C92BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD9860B1AB5614800C92BA0 /* Mole02.png in Resources */,
+				BCD9860C1AB5614800C92BA0 /* Mole03.png in Resources */,
+				BCD985CB1AB55DA300C92BA0 /* InfoPlist.strings in Resources */,
+				BCD986071AB5614800C92BA0 /* GameBG03.png in Resources */,
+				BCD9860F1AB5614800C92BA0 /* Mole06.png in Resources */,
+				BCD986081AB5614800C92BA0 /* GameBG04.png in Resources */,
+				BCD986041AB5614800C92BA0 /* Default.png in Resources */,
+				BCD9860A1AB5614800C92BA0 /* Mole01.png in Resources */,
+				BCD986091AB5614800C92BA0 /* Icon.png in Resources */,
+				BCD9860E1AB5614800C92BA0 /* Mole05.png in Resources */,
+				BCD986061AB5614800C92BA0 /* GameBG02.png in Resources */,
+				BCD985D31AB55DA300C92BA0 /* Images.xcassets in Resources */,
+				BCD9860D1AB5614800C92BA0 /* Mole04.png in Resources */,
+				BCD986051AB5614800C92BA0 /* GameBG01.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD985D61AB55DA300C92BA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD985E41AB55DA300C92BA0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCD985B91AB55DA200C92BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD985D11AB55DA300C92BA0 /* CvlAppDelegate.m in Sources */,
+				BCD985F61AB5601400C92BA0 /* CvlBeatMoleView.m in Sources */,
+				BCD985F21AB55FA500C92BA0 /* CvlBeatMoleRootViewController.m in Sources */,
+				BCD985CD1AB55DA300C92BA0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD985D41AB55DA300C92BA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD985E61AB55DA300C92BA0 /* CvlPlayBeatMoleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCD985DE1AB55DA300C92BA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCD985BC1AB55DA200C92BA0 /* CvlPlayBeatMole */;
+			targetProxy = BCD985DD1AB55DA300C92BA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCD985C91AB55DA300C92BA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCD985CA1AB55DA300C92BA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BCD985E21AB55DA300C92BA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCD985E31AB55DA300C92BA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCD985E71AB55DA300C92BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BCD985E81AB55DA300C92BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCD985EA1AB55DA300C92BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CvlPlayBeatMole/CvlPlayBeatMole-Prefix.pch";
+				INFOPLIST_FILE = "CvlPlayBeatMole/CvlPlayBeatMole-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BCD985EB1AB55DA300C92BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CvlPlayBeatMole/CvlPlayBeatMole-Prefix.pch";
+				INFOPLIST_FILE = "CvlPlayBeatMole/CvlPlayBeatMole-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BCD985ED1AB55DA300C92BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CvlPlayBeatMole.app/CvlPlayBeatMole";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CvlPlayBeatMole/CvlPlayBeatMole-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CvlPlayBeatMoleTests/CvlPlayBeatMoleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BCD985EE1AB55DA300C92BA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CvlPlayBeatMole.app/CvlPlayBeatMole";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CvlPlayBeatMole/CvlPlayBeatMole-Prefix.pch";
+				INFOPLIST_FILE = "CvlPlayBeatMoleTests/CvlPlayBeatMoleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCD985B81AB55DA200C92BA0 /* Build configuration list for PBXProject "CvlPlayBeatMole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD985E71AB55DA300C92BA0 /* Debug */,
+				BCD985E81AB55DA300C92BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD985E91AB55DA300C92BA0 /* Build configuration list for PBXNativeTarget "CvlPlayBeatMole" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD985EA1AB55DA300C92BA0 /* Debug */,
+				BCD985EB1AB55DA300C92BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCD985EC1AB55DA300C92BA0 /* Build configuration list for PBXNativeTarget "CvlPlayBeatMoleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD985ED1AB55DA300C92BA0 /* Debug */,
+				BCD985EE1AB55DA300C92BA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCD985B51AB55DA200C92BA0 /* Project object */;
+}
